@@ -1,0 +1,73 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(249, 253, 253);
+    text-align: center;
+}
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 1rem;
+  padding-right: 3rem;
+  background-color: rgb(40, 233, 233);
+  font-size: 1.6rem;
+}
+.input {
+  font-size: 14px;
+  background-color: chartreuse;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+  font-size: xx-large;
+}
+
+.input-label{
+  font-size:1.8rem;
+  display: block;
+  color: blue;
+}
+#check-button {
+  border: none;
+  color: rgb(76, 75, 148);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: rgb(174, 199, 199);
+  margin: auto;
+  display: block;
+}
+
+body{
+  background-color: rgb(241, 244, 248);
+  text-align: center;
+}
+h1{
+  text-align: center;
+  min-width: 100vh;
+  color: blue;
+  font-size: 3rem;
+}
+.description{
+  font-size: 1.6rem;
+  margin: 4rem;
+}
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+caption{
+  font-size: xx-large;
+  margin-top:2rem ;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
